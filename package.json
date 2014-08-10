@@ -1,0 +1,13 @@
+{
+  "name": "Softwerkskammer",
+  "description": "Is awesome",
+  "version": "1.0.0",
+  "devDependencies": {
+    "dalek-browser-chrome": "0.0.10",
+    "dalek-browser-firefox": "0.0.6",
+    "dalek-browser-ie": "0.0.4",
+    "dalek-browser-ios": "0.0.3",
+    "dalek-reporter-html": "0.0.3",
+    "dalekjs": "0.0.8"
+  }
+}
