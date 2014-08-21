@@ -14,7 +14,12 @@ module.exports = {
   'Baufinanzierung': function (test) {
       test.open('https://www.ing-diba.de/diba-forms/baufinanzierung/anfordern/?1&version=1')
         .click('#id7')
-        .waitForElement('#id3e')
+        .waitForElement('#ida')
+        .click('#ida')
+        .click('option[value="KAUF_EINES_NEUBAUS"]')
+        .assert.selected('option[value="KAUF_EINES_NEUBAUS"]')
+        .screenshot('screenshots/:browser_:version/on/:os_:osVersion/baufinanzierung.png')
+        .done()
   }
 
 };
