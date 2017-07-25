@@ -1,5 +1,7 @@
 # DalekJS
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kahlil/softwerkskammer-dalekjs.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 ```
